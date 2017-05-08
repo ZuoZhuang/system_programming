@@ -1,0 +1,282 @@
+[
+  {
+    "revision": "53539",
+    "timestamp": "2017-03-12 22:00:00.555091",
+    "testcases": [
+      {
+        "description": "\nThis asks the MMU for one physical address:\n    Checks that the unmber of page_faults is correct\n    Checks that the number of page_table_traversals is correct.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_check_removed_unused_bits.",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis ask the MMU for one physical adress:\n    Checks that the number of page faults is correct\n    Checks that the number of page_table_traversals is correct\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_1_address",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis asks the MMU for one physical_address twice:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversalss is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_address_twice",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis asks the MMU for 2 physical_address interleaved among each other:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversals is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_interleave",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis tests two processes asking for the same virtual address.\n    Note: the physical addresses should be different.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_multiprocess",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis tests if you are effectively using the TLB for the fact that \n    \"all virtual addresses with the same 4 virtual page numbers will map to the same frame in memory\".\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_same_vpns_diff_offset",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "This test spams get_1_address() a bunch.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_spam1",
+        "ptsEarned": 0.0
+      }
+    ],
+    "checksum": "b6fa95e6b49332e3443c0ee2157c18c894d6309c  mmu.c\n"
+  },
+  {
+    "revision": "55892",
+    "timestamp": "2017-03-13 22:00:01.050427",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_check_removed_unused_bits.",
+        "description": "\nThis asks the MMU for one physical address:\n    Checks that the unmber of page_faults is correct\n    Checks that the number of page_table_traversals is correct.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_1_address",
+        "description": "\nThis ask the MMU for one physical adress:\n    Checks that the number of page faults is correct\n    Checks that the number of page_table_traversals is correct\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_address_twice",
+        "description": "\nThis asks the MMU for one physical_address twice:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversalss is correct.\n    Checks that the physical address is persistent.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_interleave",
+        "description": "\nThis asks the MMU for 2 physical_address interleaved among each other:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversals is correct.\n    Checks that the physical address is persistent.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_multiprocess",
+        "description": "\nThis tests two processes asking for the same virtual address.\n    Note: the physical addresses should be different.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_same_vpns_diff_offset",
+        "description": "\nThis tests if you are effectively using the TLB for the fact that \n    \"all virtual addresses with the same 4 virtual page numbers will map to the same frame in memory\".\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_spam1",
+        "description": "This test spams get_1_address() a bunch."
+      }
+    ],
+    "checksum": "b6fa95e6b49332e3443c0ee2157c18c894d6309c  mmu.c\n"
+  },
+  {
+    "revision": "56678",
+    "timestamp": "2017-03-14 22:00:01.120981",
+    "testcases": [
+      {
+        "description": "\nThis asks the MMU for one physical address:\n    Checks that the unmber of page_faults is correct\n    Checks that the number of page_table_traversals is correct.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_check_removed_unused_bits.",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis ask the MMU for one physical adress:\n    Checks that the number of page faults is correct\n    Checks that the number of page_table_traversals is correct\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_1_address",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis asks the MMU for one physical_address twice:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversalss is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_address_twice",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis asks the MMU for 2 physical_address interleaved among each other:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversals is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_interleave",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis tests two processes asking for the same virtual address.\n    Note: the physical addresses should be different.\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_multiprocess",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "\nThis tests if you are effectively using the TLB for the fact that \n    \"all virtual addresses with the same 4 virtual page numbers will map to the same frame in memory\".\n",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_same_vpns_diff_offset",
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "This test spams get_1_address() a bunch.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_spam1",
+        "ptsEarned": 0.0
+      }
+    ],
+    "checksum": "b6fa95e6b49332e3443c0ee2157c18c894d6309c  mmu.c\n"
+  },
+  {
+    "revision": "56941",
+    "timestamp": "2017-03-15 14:00:01.147593",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_check_removed_unused_bits.",
+        "description": "\nThis asks the MMU for one physical address:\n    Checks that the unmber of page_faults is correct\n    Checks that the number of page_table_traversals is correct.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_1_address",
+        "description": "\nThis ask the MMU for one physical adress:\n    Checks that the number of page faults is correct\n    Checks that the number of page_table_traversals is correct\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_get_address_twice",
+        "description": "\nThis asks the MMU for one physical_address twice:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversalss is correct.\n    Checks that the physical address is persistent.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_interleave",
+        "description": "\nThis asks the MMU for 2 physical_address interleaved among each other:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversals is correct.\n    Checks that the physical address is persistent.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_multiprocess",
+        "description": "\nThis tests two processes asking for the same virtual address.\n    Note: the physical addresses should be different.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_same_vpns_diff_offset",
+        "description": "\nThis tests if you are effectively using the TLB for the fact that \n    \"all virtual addresses with the same 4 virtual page numbers will map to the same frame in memory\".\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nNone\n... or you timed out ...",
+        "name": "test_spam1",
+        "description": "This test spams get_1_address() a bunch."
+      }
+    ],
+    "checksum": "b6fa95e6b49332e3443c0ee2157c18c894d6309c  mmu.c\n"
+  },
+  {
+    "revision": "57563",
+    "timestamp": "2017-03-16 00:00:01.221043",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis asks the MMU for one physical address:\n    Checks that the unmber of page_faults is correct\n    Checks that the number of page_table_traversals is correct.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_check_removed_unused_bits."
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis ask the MMU for one physical adress:\n    Checks that the number of page faults is correct\n    Checks that the number of page_table_traversals is correct\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_get_1_address"
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis asks the MMU for one physical_address twice:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversalss is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_get_address_twice"
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis asks the MMU for 2 physical_address interleaved among each other:\n    Checks that the number of page_faults is correct.\n    Checks that the number of page_table_traversals is correct.\n    Checks that the physical address is persistent.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_interleave"
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis tests two processes asking for the same virtual address.\n    Note: the physical addresses should be different.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_multiprocess"
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "\nThis tests if you are effectively using the TLB for the fact that \n    \"all virtual addresses with the same 4 virtual page numbers will map to the same frame in memory\".\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_same_vpns_diff_offset"
+      },
+      {
+        "ptsPossible": 1.0,
+        "description": "This test spams get_1_address() a bunch.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nGood Job!",
+        "name": "test_spam1"
+      }
+    ],
+    "checksum": "3c63776f0b6ad93fd1ed97cdad288bf0fc6fd0d1  mmu.c\n"
+  }
+]

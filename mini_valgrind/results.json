@@ -1,0 +1,247 @@
+[
+  {
+    "checksum": "a34944e19a4e9709f3d2c856c601e2477bb9db58  mini_valgrind.c\n",
+    "timestamp": "2017-02-12 22:00:10.951742",
+    "revision": "20662",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_free",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has bad frees."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "calloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test calloc with a program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "full",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has a variety of issues."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "no_leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "realloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test realloc with a program that has no memory leaks."
+      }
+    ]
+  },
+  {
+    "checksum": "a34944e19a4e9709f3d2c856c601e2477bb9db58  mini_valgrind.c\n",
+    "timestamp": "2017-02-13 22:00:03.256976",
+    "revision": "22631",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_free",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has bad frees."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "calloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test calloc with a program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "full",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has a variety of issues."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "no_leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "realloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test realloc with a program that has no memory leaks."
+      }
+    ]
+  },
+  {
+    "checksum": "a34944e19a4e9709f3d2c856c601e2477bb9db58  mini_valgrind.c\n",
+    "timestamp": "2017-02-14 22:00:09.870603",
+    "revision": "24124",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_free",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has bad frees."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "calloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test calloc with a program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "full",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has a variety of issues."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "no_leak",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test with program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "realloc",
+        "log": "malloc/calloc/realloc did not return a valid pointer",
+        "description": "Test realloc with a program that has no memory leaks."
+      }
+    ]
+  },
+  {
+    "checksum": "1fc59ebe82489b673da5578204ca5e0c74bdac91  mini_valgrind.c\n",
+    "timestamp": "2017-02-15 14:00:07.076218",
+    "revision": "24901",
+    "testcases": [
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "bad_free",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has bad frees."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "calloc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test calloc with a program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "full",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has a variety of issues."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "leak",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "no_leak",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "realloc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test realloc with a program that has no memory leaks."
+      }
+    ]
+  },
+  {
+    "revision": "26139",
+    "checksum": "1fc59ebe82489b673da5578204ca5e0c74bdac91  mini_valgrind.c\n",
+    "timestamp": "2017-02-16 00:00:03.334671",
+    "testcases": [
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "bad_free",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has bad frees."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "calloc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test calloc with a program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "full",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has a variety of issues."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "leak",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "no_leak",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test with program that has no memory leaks."
+      },
+      {
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "name": "realloc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Test realloc with a program that has no memory leaks."
+      }
+    ]
+  }
+]

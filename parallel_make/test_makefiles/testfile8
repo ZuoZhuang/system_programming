@@ -1,0 +1,16 @@
+all: a c
+	echo This command should not run, since 'a' should fail to run
+	echo 'c' should not run either unless you explicitly list it as
+	echo a build target, since we must drop the 'all' rule
+	echo altogether.
+
+a: b
+	echo This command should not run, since it has a cycle dependency
+
+b: a
+	echo This command should not run, since it has a cycle dependency
+
+c:
+	echo This should only print out when you run 
+	echo "./parmake -f testfiles/testfile8 c"
+
