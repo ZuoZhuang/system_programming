@@ -1,0 +1,380 @@
+[
+  {
+    "revision": "86744",
+    "timestamp": "2017-04-23 22:00:00.629063",
+    "checksum": "ca22787daabbd7443aa9ef4757491f2b40877c96  lookup1.c\n32a75f79dd8c11246e7c5ace3fa8c1fcfdc2d8c3  lookup2.c\n",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      }
+    ]
+  },
+  {
+    "revision": "87796",
+    "timestamp": "2017-04-24 22:00:01.722406",
+    "checksum": "ca22787daabbd7443aa9ef4757491f2b40877c96  lookup1.c\n32a75f79dd8c11246e7c5ace3fa8c1fcfdc2d8c3  lookup2.c\n",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      }
+    ]
+  },
+  {
+    "revision": "88202",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      }
+    ],
+    "checksum": "ca22787daabbd7443aa9ef4757491f2b40877c96  lookup1.c\n32a75f79dd8c11246e7c5ace3fa8c1fcfdc2d8c3  lookup2.c\n",
+    "timestamp": "2017-04-25 14:00:01.516468"
+  },
+  {
+    "revision": "88658",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      }
+    ],
+    "checksum": "ca22787daabbd7443aa9ef4757491f2b40877c96  lookup1.c\n32a75f79dd8c11246e7c5ace3fa8c1fcfdc2d8c3  lookup2.c\n",
+    "timestamp": "2017-04-25 22:00:01.795909"
+  },
+  {
+    "revision": "89029",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 1 given less than 2 arguments."
+      }
+    ],
+    "checksum": "ca22787daabbd7443aa9ef4757491f2b40877c96  lookup1.c\n32a75f79dd8c11246e7c5ace3fa8c1fcfdc2d8c3  lookup2.c\n",
+    "timestamp": "2017-04-26 14:00:02.249687"
+  },
+  {
+    "revision": "89942",
+    "testcases": [
+      {
+        "description": "Read from non-data file, version 1.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "bad_file_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Read from non-data file, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "bad_file_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nDid not return 2 given non-data file."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 1.",
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "multi_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up multiple word from large.data, version 2.",
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "multi_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Look up a non-existence word, version 1",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "non_existence_word_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess."
+      },
+      {
+        "description": "Look up a non-existence word, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "non_existence_word_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect output."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 1.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "two_argument_test_version1",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess."
+      },
+      {
+        "description": "Run with less than 2 arguments, version 2.",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "two_argument_test_version2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nSuccess."
+      }
+    ],
+    "checksum": "d953009856e2e1a0ee33d6f1ecfcc6c019685b46  lookup1.c\n70b4f414092226f99a57bc1c0119bfe5dc41365c  lookup2.c\n",
+    "timestamp": "2017-04-27 00:00:02.013930"
+  }
+]

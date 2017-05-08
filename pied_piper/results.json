@@ -1,0 +1,275 @@
+[
+  {
+    "revision": "58225",
+    "timestamp": "2017-03-18 22:00:00.763178",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run an invalid pied piper command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==10804== Memcheck, a memory error detector\n==10804== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==10804== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==10804== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==10804== \n==10804== \n==10804== HEAP SUMMARY:\n==10804==     in use at exit: 0 bytes in 0 blocks\n==10804==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==10804== \n==10804== All heap blocks were freed -- no leaks are possible\n==10804== \n==10804== For counts of detected and suppressed errors, rerun with: -v\n==10804== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "58542",
+    "timestamp": "2017-03-19 22:00:00.998603",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run an invalid pied piper command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==20756== Memcheck, a memory error detector\n==20756== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==20756== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==20756== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==20756== \n==20756== \n==20756== HEAP SUMMARY:\n==20756==     in use at exit: 0 bytes in 0 blocks\n==20756==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==20756== \n==20756== All heap blocks were freed -- no leaks are possible\n==20756== \n==20756== For counts of detected and suppressed errors, rerun with: -v\n==20756== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "62900",
+    "timestamp": "2017-03-28 15:00:01.263328",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run an invalid pied piper command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==31399== Memcheck, a memory error detector\n==31399== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==31399== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==31399== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==31399== \n==31399== \n==31399== HEAP SUMMARY:\n==31399==     in use at exit: 0 bytes in 0 blocks\n==31399==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==31399== \n==31399== All heap blocks were freed -- no leaks are possible\n==31399== \n==31399== For counts of detected and suppressed errors, rerun with: -v\n==31399== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "63579",
+    "timestamp": "2017-03-28 22:00:01.179345",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run an invalid pied piper command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==16700== Memcheck, a memory error detector\n==16700== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==16700== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==16700== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==16700== \n==16700== \n==16700== HEAP SUMMARY:\n==16700==     in use at exit: 0 bytes in 0 blocks\n==16700==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==16700== \n==16700== All heap blocks were freed -- no leaks are possible\n==16700== \n==16700== For counts of detected and suppressed errors, rerun with: -v\n==16700== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "64312",
+    "timestamp": "2017-03-29 14:00:01.123984",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==6204== Memcheck, a memory error detector\n==6204== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==6204== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==6204== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==6204== \n==6204== \n==6204== HEAP SUMMARY:\n==6204==     in use at exit: 0 bytes in 0 blocks\n==6204==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==6204== \n==6204== All heap blocks were freed -- no leaks are possible\n==6204== \n==6204== For counts of detected and suppressed errors, rerun with: -v\n==6204== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "64789",
+    "timestamp": "2017-03-29 18:00:01.204936",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "ptsEarned": 0.0,
+        "name": "basic_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 2.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "ptsEarned": 0.0,
+        "name": "failure_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==12459== Memcheck, a memory error detector\n==12459== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==12459== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==12459== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==12459== \n==12459== \n==12459== HEAP SUMMARY:\n==12459==     in use at exit: 0 bytes in 0 blocks\n==12459==   total heap usage: 2 allocs, 2 frees, 16 bytes allocated\n==12459== \n==12459== All heap blocks were freed -- no leaks are possible\n==12459== \n==12459== For counts of detected and suppressed errors, rerun with: -v\n==12459== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+        "ptsPossible": 1.0,
+        "description": "Check for memory errors",
+        "ptsEarned": 1.0,
+        "name": "memory_test"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsPossible": 1.0,
+        "description": "Test that processes are being restarted upon failing",
+        "ptsEarned": 0.0,
+        "name": "restart_test"
+      }
+    ],
+    "checksum": "e59140182babc0ece3455cef038ea08ed29a90a6  pied_piper.c\n"
+  },
+  {
+    "revision": "65525",
+    "timestamp": "2017-03-30 00:00:00.675156",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "basic_test",
+        "ptsEarned": 1.0,
+        "description": "Run a basic pied piper command (no failures)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "failure_test",
+        "ptsEarned": 0.0,
+        "description": "Tests that we try restart failed processes at most 3 times, and that no commands are run after a 3-time failed process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "memory_test",
+        "ptsEarned": 1.0,
+        "description": "Check for memory errors",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==407== Memcheck, a memory error detector\n==407== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==407== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==407== Command: ./pied_piper -i basic_input -o out cat grep\\ basic\n==407== "
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "restart_test",
+        "ptsEarned": 0.0,
+        "description": "Test that processes are being restarted upon failing",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }
+    ],
+    "checksum": "41db7926dd7487f9e29efa308cb014c11555b54f  pied_piper.c\n"
+  }
+]

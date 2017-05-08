@@ -1,0 +1,240 @@
+Loaded 5 job(s) using Round Robin (RR) with a quantum of 1 scheduling...
+
+=== [TIME 0] ===
+A new job, job 0 (running time=3, priority=2), arrived. Job 0 is now running on processor.
+  Queue: 
+
+At the end of time unit 0...
+  History: 0
+
+  Queue: 
+
+=== [TIME 1] ===
+Job 0 had its quantum expire. Processor is now running job 0.
+  Queue: 
+
+A new job, job 1 (running time=10, priority=3), arrived. Job 1 is set to idle (-1).
+  Queue: 
+
+At the end of time unit 1...
+  History: 00
+
+  Queue: 
+
+=== [TIME 2] ===
+Job 0 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+A new job, job 2 (running time=5, priority=1), arrived. Job 2 is set to idle (-1).
+  Queue: 
+
+At the end of time unit 2...
+  History: 001
+
+  Queue: 
+
+=== [TIME 3] ===
+Job 1 had its quantum expire. Processor is now running job 2.
+  Queue: 
+
+A new job, job 3 (running time=2, priority=4), arrived. Job 3 is set to idle (-1).
+  Queue: 
+
+At the end of time unit 3...
+  History: 0012
+
+  Queue: 
+
+=== [TIME 4] ===
+Job 2 had its quantum expire. Processor is now running job 3.
+  Queue: 
+
+A new job, job 4 (running time=4, priority=5), arrived. Job 4 is set to idle (-1).
+  Queue: 
+
+At the end of time unit 4...
+  History: 00123
+
+  Queue: 
+
+=== [TIME 5] ===
+Job 3 had its quantum expire. Processor is now running job 4.
+  Queue: 
+
+At the end of time unit 5...
+  History: 001234
+
+  Queue: 
+
+=== [TIME 6] ===
+Job 4 had its quantum expire. Processor is now running job 0.
+  Queue: 
+
+At the end of time unit 6...
+  History: 0012340
+
+  Queue: 
+
+=== [TIME 7] ===
+Job 0 finished. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 7...
+  History: 00123401
+
+  Queue: 
+
+=== [TIME 8] ===
+Job 1 had its quantum expire. Processor is now running job 2.
+  Queue: 
+
+At the end of time unit 8...
+  History: 001234012
+
+  Queue: 
+
+=== [TIME 9] ===
+Job 2 had its quantum expire. Processor is now running job 3.
+  Queue: 
+
+At the end of time unit 9...
+  History: 0012340123
+
+  Queue: 
+
+=== [TIME 10] ===
+Job 3 finished. Processor is now running job 4.
+  Queue: 
+
+At the end of time unit 10...
+  History: 00123401234
+
+  Queue: 
+
+=== [TIME 11] ===
+Job 4 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 11...
+  History: 001234012341
+
+  Queue: 
+
+=== [TIME 12] ===
+Job 1 had its quantum expire. Processor is now running job 2.
+  Queue: 
+
+At the end of time unit 12...
+  History: 0012340123412
+
+  Queue: 
+
+=== [TIME 13] ===
+Job 2 had its quantum expire. Processor is now running job 4.
+  Queue: 
+
+At the end of time unit 13...
+  History: 00123401234124
+
+  Queue: 
+
+=== [TIME 14] ===
+Job 4 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 14...
+  History: 001234012341241
+
+  Queue: 
+
+=== [TIME 15] ===
+Job 1 had its quantum expire. Processor is now running job 2.
+  Queue: 
+
+At the end of time unit 15...
+  History: 0012340123412412
+
+  Queue: 
+
+=== [TIME 16] ===
+Job 2 had its quantum expire. Processor is now running job 4.
+  Queue: 
+
+At the end of time unit 16...
+  History: 00123401234124124
+
+  Queue: 
+
+=== [TIME 17] ===
+Job 4 finished. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 17...
+  History: 001234012341241241
+
+  Queue: 
+
+=== [TIME 18] ===
+Job 1 had its quantum expire. Processor is now running job 2.
+  Queue: 
+
+At the end of time unit 18...
+  History: 0012340123412412412
+
+  Queue: 
+
+=== [TIME 19] ===
+Job 2 finished. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 19...
+  History: 00123401234124124121
+
+  Queue: 
+
+=== [TIME 20] ===
+Job 1 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 20...
+  History: 001234012341241241211
+
+  Queue: 
+
+=== [TIME 21] ===
+Job 1 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 21...
+  History: 0012340123412412412111
+
+  Queue: 
+
+=== [TIME 22] ===
+Job 1 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 22...
+  History: 00123401234124124121111
+
+  Queue: 
+
+=== [TIME 23] ===
+Job 1 had its quantum expire. Processor is now running job 1.
+  Queue: 
+
+At the end of time unit 23...
+  History: 001234012341241241211111
+
+  Queue: 
+
+=== [TIME 24] ===
+Job 1 finished. Processor is now running job -1.
+  Queue: 
+
+FINAL TIMING DIAGRAM:
+  History: 001234012341241241211111
+
+Average Waiting Time: 8.60
+Average Turnaround Time: 13.40
+Average Response Time: 0.80

@@ -1,0 +1,1962 @@
+[
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Error: Command did not run immediately after we backgrounded a process",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 5.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      }
+    ],
+    "revision": "25831",
+    "timestamp": "2017-02-15 22:00:00.730981"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nshell.c:15:15: warning: unused parameter 'argc' [-Wunused-parameter]\nint shell(int argc, char *argv[]) {\n              ^\nshell.c:15:27: warning: unused parameter 'argv' [-Wunused-parameter]\nint shell(int argc, char *argv[]) {\n                          ^\n2 warnings generated.\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\n/usr/bin/ld: cannot find -lprovided\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\nmake: *** [shell] Error 1\n",
+        "description": "Testing echo and printing."
+      }
+    ],
+    "revision": "26795",
+    "timestamp": "2017-02-16 22:27:29.731675"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Error: Command did not run immediately after we backgrounded a process",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      }
+    ],
+    "revision": "26812",
+    "timestamp": "2017-02-16 22:49:39.738081"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Error: Command did not run immediately after we backgrounded a process",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      }
+    ],
+    "revision": "26898",
+    "timestamp": "2017-02-17 00:00:00.577620"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Error: Command did not run immediately after we backgrounded a process",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      }
+    ],
+    "revision": "27569",
+    "timestamp": "2017-02-17 22:00:01.092710"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "28502",
+    "timestamp": "2017-02-18 16:00:00.705367"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "29551",
+    "timestamp": "2017-02-19 00:51:28.723947"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "30118",
+    "timestamp": "2017-02-19 14:54:10.348683"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "30396",
+    "timestamp": "2017-02-19 18:00:01.555000"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "30853",
+    "timestamp": "2017-02-19 21:00:01.616315"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "31330",
+    "timestamp": "2017-02-20 00:00:01.219300"
+  },
+  {
+    "checksum": "1b6dab673138c6da37032335193d6f07cb959e8e  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "check_background_process",
+        "log": "Failed test (core functionality)",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "control_c_test",
+        "log": "Shell quit with sigint",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard",
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "invalid_command",
+        "log": "Error: couldn't find error message for running invalid command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "print_test",
+        "log": "Error: command did not run",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed test (core functionality)",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "31567",
+    "timestamp": "2017-02-20 03:00:01.307430"
+  },
+  {
+    "checksum": "4e40a659bc34edc2e31c1902462ad9ad522aa3bd  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "31640",
+    "timestamp": "2017-02-20 06:00:01.657333"
+  },
+  {
+    "checksum": "4e40a659bc34edc2e31c1902462ad9ad522aa3bd  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "31750",
+    "timestamp": "2017-02-20 09:00:01.916393"
+  },
+  {
+    "checksum": "4e40a659bc34edc2e31c1902462ad9ad522aa3bd  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "32011",
+    "timestamp": "2017-02-20 12:00:01.293009"
+  },
+  {
+    "checksum": "4e40a659bc34edc2e31c1902462ad9ad522aa3bd  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "32418",
+    "timestamp": "2017-02-20 15:00:01.185417"
+  },
+  {
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "checksum": "0b4863acc9aa33726ccecac824619761ae3e9102  shell.c\n",
+    "revision": "33117",
+    "timestamp": "2017-02-20 19:25:09.801126"
+  },
+  {
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "description": "Attempt to cd to a directory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "description": "Checking if zombie processes are cleaned up",
+        "log": "Error: Process failed to run in background"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "description": "Checking if SIGINT is blocked",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "description": "Checking if shell exits correctly",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "description": "Checking if shell exits correctly",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "description": "Memory test - does not depend on shell functionality.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!"
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "description": "Memory check hard (all features need to work for this).",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "description": "Testing echo and printing.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "description": "Tests STOP, CONT, and KILL",
+        "log": "Failed to KILL process"
+      }
+    ],
+    "checksum": "0b4863acc9aa33726ccecac824619761ae3e9102  shell.c\n",
+    "revision": "33392",
+    "timestamp": "2017-02-20 21:00:01.218489"
+  },
+  {
+    "checksum": "0b4863acc9aa33726ccecac824619761ae3e9102  shell.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie",
+        "log": "Error: Process failed to run in background",
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "file_test_hard2",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "ptsPossible": 5.0,
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nMEMORY ERROR/LEAK!",
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0,
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "description": "Testing echo and printing."
+      },
+      {
+        "ptsPossible": 6.0,
+        "ptsEarned": 4.0,
+        "name": "stop_cont_kill_test",
+        "log": "Failed to KILL process",
+        "description": "Tests STOP, CONT, and KILL"
+      }
+    ],
+    "revision": "33990",
+    "timestamp": "2017-02-21 00:00:01.338893"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "timestamp": "2017-04-01 22:00:00.652989",
+    "revision": "66693",
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "testcases": [
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PLRTF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions"
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-04-02 01:09:59.020342",
+    "revision": "66789",
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "testcases": [
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PLRTF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions"
+      },
+      {
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsEarned": 0.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions"
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-04-02 01:32:00.762610",
+    "revision": "66916",
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "name": "FCFS",
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PLRTF",
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PPRI",
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PRI",
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "SJF",
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "log": "Unknown autograder error when running test, please report to staff",
+        "ptsPossible": 3.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-04-02 22:00:00.843804",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "name": "FCFS",
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PLRTF",
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PPRI",
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "PRI",
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      },
+      {
+        "ptsEarned": 0.0,
+        "name": "SJF",
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsPossible": 3.0
+      }
+    ],
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "revision": "67796"
+  },
+  {
+    "timestamp": "2017-04-03 22:00:01.550826",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PLRTF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions"
+      },
+      {
+        "ptsEarned": 0.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions"
+      }
+    ],
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "revision": "69283"
+  },
+  {
+    "timestamp": "2017-04-04 22:00:01.939656",
+    "testcases": [
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "FCFS",
+        "ptsEarned": 0.0,
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PLRTF",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PPRI",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PRI",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR1",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR2",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR4",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions"
+      },
+      {
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "SJF",
+        "ptsEarned": 0.0,
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions"
+      }
+    ],
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "revision": "70303"
+  },
+  {
+    "timestamp": "2017-04-05 14:00:01.517367",
+    "testcases": [
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "FCFS",
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PLRTF",
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PPRI",
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "PRI",
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR1",
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR2",
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "RR4",
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "name": "SJF",
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      }
+    ],
+    "checksum": "217afcd0a4a29788699618611d211933e44fe5a9  libscheduler.c\n8ec2027443787857a05d55b39c14b8cb762622dc  libscheduler.h\n",
+    "revision": "70985"
+  },
+  {
+    "timestamp": "2017-04-06 00:00:01.589486",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "name": "PLRTF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Least Remaining Time First (PLRTF) scheduling solutions"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions"
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions"
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions"
+      },
+      {
+        "log": "simulator.c returned with an exit code of 3",
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions"
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions"
+      }
+    ],
+    "checksum": "b03e392650a802cd10c57124d508988151d8e627  libscheduler.c\nc8d6912270b0a466a5406799242e649f071e7ede  libscheduler.h\n",
+    "revision": "72306"
+  }
+]
